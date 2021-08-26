@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [solution URL](https://github.com/Thiago-a1/tip-calculator)
-- Live Site URL: [live site URL](https://your-live-site-url.com)
+- Live Site URL: [live site URL](https://thiago-a1.github.io/tip-calculator/)
 
 ## My process
 
@@ -43,4 +43,4 @@ Users should be able to:
 ## Author
 
 - Website - [Thiago Araujo]
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Thiago-a1](https://www.frontendmentor.io/profile/yourusername)

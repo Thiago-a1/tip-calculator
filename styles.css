@@ -1,0 +1,212 @@
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 64px auto;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 32px;
+
+	box-shadow: 1px 1px 6px 1px hsla(0, 0%, 0%, 0.150);
+
+	background-color: var(--background-card);
+	padding: 32px;
+	margin: 32px auto;
+	border-radius: 16px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	row-gap: 32px;
+
+	width: 96%;
+}
+
+.form label {
+	font-size: 14px;
+	font-weight: 700;
+
+	color: var(--secondary-font-color);
+}
+
+.input-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	height: 42px;
+	padding: 0 18px;
+	background-color: var(--background-input);
+	border-radius: 6px;
+	margin-top: 8px;
+}
+
+.input-active {
+	border: 2px solid var(--primary-color) !important;
+}
+
+.input-wrong {
+	border: 2px solid hsl(14, 88%, 54%) !important;
+}
+
+.wrong {
+	visibility: hidden;
+
+	font-size: 14px;
+	font-weight: 700;
+
+	color: hsl(14, 88%, 54%);
+}
+
+.container {
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.input-container img {
+	width: 12px;
+	height: 16px;
+	margin-right: 18px;
+	align-self: center;
+	justify-self: center;
+}
+
+.input-container input {
+	width: 100%;
+	height: 30px;
+	align-self: center;
+	
+	background-color: var(--background-input);
+	border: none;
+	color: var(--primary-font-color);
+
+	text-align: end;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.input-container input::placeholder {
+	color: var(--primary-font-color);
+}
+
+.select-tip-container {
+	display: flex;
+	flex-wrap: wrap;
+
+	gap: 14px;
+
+	margin-top: 8px;
+}
+
+.btn {
+	width: 142px;
+	height: 44px;
+	border: none;
+	border-radius: 6px;
+
+	background-color: var(--secondary-color);
+	color: var(--white);
+
+	font-weight: 700;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+.btn:hover {
+	background-color: hsl(172, 65%, 68%);
+	color: var(--secondary-color);
+}
+
+.active {
+	background-color: var(--primary-color);
+	color: var(--primary-font-color);
+}
+
+.select-tip-container input {
+	width: 142px;
+	height: 42px;
+	border: none;
+	border-radius: 6px;
+	padding: 0 12px;
+
+	background-color: var(--background-input);
+	color: var(--secondary-font-color);
+
+	text-align: end;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.select-tip-container input::placeholder {
+	text-align: end;
+
+	color: var(--secondary-font-color);
+}
+
+.result {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	width: 100%;
+	padding: 12% 8% 8% 8%;
+	border-radius: 16px;
+
+	background-color: var(--secondary-color);
+}
+
+.result div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	margin-bottom: 42px;
+}
+
+.result div h3 {
+	font-size: 14px;
+	letter-spacing: 1px;
+
+	color: var(--white);
+}
+
+.result div span {
+	font-size: 12px;
+	font-weight: 700;
+
+	color: var(--secondary-font-color);
+}
+
+.result div strong {
+	font-size: 32px;
+
+	color: var(--primary-color);
+}
+
+.result button {
+	width: 100%;
+	height: 42px;
+	border: none;
+	border-radius: 6px;
+
+	background-color: var(--primary-color);
+	color: var(--primary-font-color);
+
+	font-weight: 700;
+	font-size: 18px;
+
+	transition: ease-in 0.2s;
+}
+
+.result button:hover {
+	background-color: hsl(172, 65%, 68%);
+}

@@ -1,0 +1,88 @@
+:root {
+	--background: hsl(185, 41%, 84%);
+	--background-card: hsl(0, 0%, 100%);
+	--background-input: hsl(189, 41%, 97%);
+
+	--primary-color: hsl(172, 67%, 45%);
+	--secondary-color: hsl(183, 100%, 15%);
+
+	--primary-font-color: hsl(183, 100%, 15%);
+	--secondary-font-color: hsl(186, 14%, 43%);
+
+	--white: hsl(0, 0%, 100%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@media (max-width: 720px) {
+	.card {
+		width: 375px;
+	}
+}
+
+@media (min-width: 980px) {
+	.card {
+		flex-direction: row !important;
+		gap: 36px;
+
+		width: 920px;
+	}
+
+	.result {
+		padding: 6% 5% 5% 5% !important;
+	}
+
+	.select-tip-container input {
+		width: 116px !important;
+	}
+
+	.btn {
+		width: 116px !important;
+	}
+
+	.result div + div {
+		margin-bottom: 108px !important;
+	}
+}
+
+body {
+	background-color: var(--background);
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+body, input, textarea, button {
+	font-family: 'Space Mono', sans-serif;
+	font-weight: 500;
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, strong{
+	font-weight: 700;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	display: none;
+}
+
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+button {
+	cursor: pointer;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
